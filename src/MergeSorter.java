@@ -39,7 +39,8 @@ public class MergeSorter implements Runnable
       Sorter.mergeSort(values,0,values.length-1,comp);
 //      Sorter.insertionSort(values, comp);
       panel.setValues(values, null,null);
-              
+       System.out.println("whats up");
+       System.out.println("testing git");
      
    }
 

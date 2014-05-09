@@ -71,6 +71,7 @@ public class MainFrame extends JFrame {
                 Thread t = new Thread(r);
 
                 t.start();
+                System.out.println("testing git");
             }
         });
         
